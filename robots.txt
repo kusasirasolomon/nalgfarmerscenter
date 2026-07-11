@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nalgagribusiness.org/sitemap.xml
+Sitemap: https://nalgagribusiness.com/sitemap.xml
