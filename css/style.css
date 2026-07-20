@@ -317,6 +317,40 @@ section{padding:96px 0;}
   display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:48px;
   border-bottom:1px solid rgba(251,246,234,.12);
 }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.brand-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 3px solid #d4af37;
+
+  background: #fff;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, .18),
+    0 0 0 4px rgba(212, 175, 55, .18);
+
+  transition: all .35s ease;
+}
+
+.brand:hover .brand-logo {
+  transform: rotate(-8deg) scale(1.08);
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, .25),
+    0 0 0 6px rgba(212, 175, 55, .28);
+}
 .footer-brand .brand{color:#fff;margin-bottom:14px;}
 .footer-brand p{font-size:.9rem;color:rgba(251,246,234,.65);max-width:32ch;}
 .footer-col h5{color:#fff;font-family:'Fraunces',serif;font-size:1rem;margin-bottom:16px;}
